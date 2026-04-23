@@ -1,0 +1,15 @@
+// ltl-scrypt/main.ltl
+//
+// scrypt KDF (RFC 7914) with tuneable parameters.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-scrypt v0.1.0")
+    io::println("scrypt KDF (RFC 7914) with tuneable parameters.")
+    0
+}
